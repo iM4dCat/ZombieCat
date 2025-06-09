@@ -49,7 +49,6 @@ public class Aimbot extends Module {
                     && !(entity instanceof EntityVillager)
                     && !(entity instanceof EntityPlayer)
                     && !(entity instanceof EntityChicken)
-                    && !(entity instanceof EntityWolf && ((EntityWolf) entity).isChild())
                     && !(entity instanceof EntityPig)
                     && !(entity instanceof EntityCow)
                     && entity.isEntityAlive()) {
